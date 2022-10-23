@@ -3,7 +3,7 @@
  =========================================================
  * Now-ui-kit - v1.1.0
  =========================================================
-///skdhfbajkdshfb
+
  * Product Page: http://www.creative-tim.com/product/now-ui-kit
  * Copyright 2017 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
@@ -2038,12 +2038,12 @@ textarea.form-control {
   .progress-container.progress-neutral .progress-badge {
     color: #FFFFFF; }
   .progress-container.progress-primary .progress {
-    background: rgba(55, 140, 63, 0.4); }
+    background: #17a2b85e; }
   .progress-container.progress-primary .progress-bar {
-    background: #378C3F; }
+    background: #2ca8ff; }
   .progress-container.progress-primary .progress-value,
   .progress-container.progress-primary .progress-badge {
-    color: #378C3F; }
+    color: #2ca8ff; }
   .progress-container.progress-info .progress {
     background: rgba(44, 168, 255, 0.3); }
   .progress-container.progress-info .progress-bar {
@@ -2598,7 +2598,7 @@ body {
   background-color: #888 !important; }
 
 .bg-primary {
-  background-color: #378C3F !important; }
+  background-color: #17a2b8 !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
