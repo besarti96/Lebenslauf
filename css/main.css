@@ -5308,4 +5308,24 @@ a.credit {
   #projectss p {
       padding-left: 25px;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* Änderungen für die mobile Version */
+    .project-container {
+    flex-wrap: wrap;
+    }
+    
+    .project-container img {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    max-width: 300px;
+    }
+    
+    #projectss {
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 300px;
+    }
+    }
   
