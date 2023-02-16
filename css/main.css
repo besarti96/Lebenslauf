@@ -5286,7 +5286,7 @@ a.credit {
   padding-bottom: 0; }
 
 
- .project-container {
+  .project-container {
     display: flex;
     align-items: center;
   }
@@ -5308,6 +5308,7 @@ a.credit {
   #projectss p {
       padding-left: 25px;
   }
+  
 
   @media only screen and (max-width: 768px) {
     /* Änderungen für die mobile Version */
@@ -5334,7 +5335,6 @@ a.credit {
   #projectss a:hover {
     color: #BBB;
   }
-  
   
 
   
