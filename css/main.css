@@ -5286,6 +5286,11 @@ a.credit {
   padding-bottom: 0; }
 
 
+ .project-container {
+    display: flex;
+    align-items: center;
+  }
+  
   .project-container img {
     display: inline-block;
     vertical-align: top;
