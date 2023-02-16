@@ -5331,8 +5331,10 @@ a.credit {
     }
   }
 
-#projectss a:hover {
-  color: red;
-}
+  #projectss a:hover {
+    color: #BBB;
+  }
+  
+  
 
   
