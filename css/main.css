@@ -5330,4 +5330,9 @@ a.credit {
       max-width: 300px;
     }
   }
+
+#projectss a:hover {
+  color: red;
+}
+
   
