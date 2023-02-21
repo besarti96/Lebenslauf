@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 35px;
+  }
+  
+  #chatbox {/*CHatbox margin in % weil ganz offen wollen wir nicht das es eine gannze seite voller chat ist. */
+    width: 60%; 
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  #chatlogs {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 15px;
+  }
+  
+  .chat {
+      margin-bottom: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  
+  .antwort {
+    background-color: lightblue;
+    float: right;
+    border-radius: 10px;
+    color: white;
+    clear: both;
+  }
+  .frage {
+    background-color:  rgb(67, 159, 137);
+    float: left;
+    border-radius: 10px;
+    color: white;
+    clear: both;
+  }
+  
+  .user {
+    background-color: lightgray;
+    float: left;
+    border-radius: 10px;
+    color: white;
+    clear: both;
+  }
+  
+  #chatform {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  #chatinput { /*Eingabe*/
+    flex-grow: 1;
+    background-color: rgb(70, 92, 87);
+    margin-right: 10px;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  button[type="submit"] {  /*Knopf SENDEN*/
+    padding: 15px 20px;
+    background-color: rgb(44, 182, 111);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /*Code für mobile Geräte*//*ab 900px bildschirm ist fast der ganze screen ein chat. */
+  @media (max-width: 700px) {
+    #chatbox {
+      width: 83%;
+      margin: 20px 5%;
+    }
+   
+    body {
+      font-size: 14px;
+    }
+  }
