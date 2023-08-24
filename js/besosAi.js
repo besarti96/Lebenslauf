@@ -2,6 +2,7 @@
 
 const chatbotResponse = {
     "hallo": "Grüezi!",
+    "Wer isch Besart": "Hmm das weiss er wohl selbst nicht, fragen sie was anderes",
     "Wie alt bist du": "Oh.. Ihnen interessiert sicher Wie alt Besart Jashari ist. Besart Ist 26 Jahre alt.!",
     "was kannst du": "I'm a chatbot, ich kann dir alles über Besart Jashari sagen",
     "was kannst du mir über besart sagen": "Besart is cool",
