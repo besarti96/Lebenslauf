@@ -1,6 +1,6 @@
 //Objekt mit schlüsselwort Paaren
 
-const chatbotResponse = {
+const chatbotResponse! = {
     "hallo": "Grüezi!",
     "Wer isch Besart": "Hmm das weiss er wohl selbst nicht, fragen sie was anderes",
     "Wie alt bist du": "Oh.. Ihnen interessiert sicher Wie alt Besart Jashari ist. Besart Ist 26 Jahre alt.!",
